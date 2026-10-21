@@ -1,0 +1,29 @@
+{
+  "N": 6,
+  "T": 64,
+  "L": 125000,
+  "train": 62500,
+  "fixed_r_shift": 6,
+  "perturbation_bits": 8,
+  "key_rng_seed": 20271013,
+  "control_rng_seed": 20271014,
+  "key_nonce_pairs": [
+    {
+      "key": "851edffaea6401e244831cc365f40668ed6f7e2228e24c0b33a8628d6aed632b",
+      "nonce": "66e1113f4a3dc5d5263f55be"
+    },
+    {
+      "key": "f2d495e6eb8de686648a6dad9fcb71f335bc1a850392b8a47de37772d854f6e4",
+      "nonce": "a92ad0eb8180b108dcead5ad"
+    },
+    {
+      "key": "9d9a4edca1d404ed9deed3b10dba7ec4b3fb6bfca3a42b9a40239adcb26253d7",
+      "nonce": "4bf38ee4306d55624ec2af3e"
+    },
+    {
+      "key": "b835d8047db15f5728471ae329df0bbc1cdc4dce3534499bb347ce05b2cf55e5",
+      "nonce": "7e7b73cc3c00855e1ed29d03"
+    }
+  ],
+  "rectangle_count": 225
+}

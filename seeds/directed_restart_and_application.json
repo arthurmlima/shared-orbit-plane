@@ -1,0 +1,36 @@
+{
+  "restart_cases": [
+    {
+      "scope": "directed_restart",
+      "index": 0,
+      "key": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "nonce": "000000090000004a00000000",
+      "derived_mix32_hex": "66faef6f",
+      "derived_mix64_hex": "e4628648fc9b8256",
+      "derived_x0_hex": "57212c46",
+      "derived_s0_hex": "2812b979fa6ce0d2"
+    },
+    {
+      "scope": "directed_restart",
+      "index": 1,
+      "key": "efbeadde78563412a5a5a5a504030201ccddeeff667788990df0ad0bbebafeca",
+      "nonce": "efcdab894030201010325476",
+      "derived_mix32_hex": "f5372f86",
+      "derived_mix64_hex": "dfba1f6d01ed0274",
+      "derived_x0_hex": "610c0652",
+      "derived_s0_hex": "bd3311ef8a00c570"
+    }
+  ],
+  "application": {
+    "scope": "complete_mesh_application",
+    "index": 0,
+    "key": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+    "nonce": "000000000100000000000000",
+    "derived_mix32_hex": "60546470",
+    "derived_mix64_hex": "cfb97bd6983c2d5f",
+    "derived_x0_hex": "68787714",
+    "derived_s0_hex": "be0350d97a26e2c5"
+  },
+  "delivery_case": "directed_restart case 0",
+  "configuration_word_order": "eight key then three nonce uint32 little endian"
+}

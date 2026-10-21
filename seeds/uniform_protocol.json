@@ -1,0 +1,21 @@
+{
+  "numpy_version": "1.21.5",
+  "bit_generator": "PCG64",
+  "rng_seed": 20271014,
+  "factory": "numpy.random.default_rng(20271014)",
+  "case_order": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "calls_per_case": 1,
+  "call": "rng.integers(0, 256, (6, 6, 125000), dtype=numpy.uint8)",
+  "reseed_between_cases": false,
+  "other_draws": false,
+  "array_order": "C",
+  "index_order": "B[y,x,time]",
+  "training_slice": "0:62500",
+  "test_slice": "62500:125000",
+  "bytes_generated_by_this_script": false
+}

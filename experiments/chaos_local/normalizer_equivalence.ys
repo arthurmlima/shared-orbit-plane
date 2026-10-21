@@ -1,0 +1,12 @@
+# A/EXT0 only; three synchronous steps, common zero initialization.
+read_verilog -Inormalizer_original/rtl normalizer_original/rtl/ext_bench.v;
+hierarchy -top ext_bench;
+proc;
+rename ext_bench original_ext_bench;
+read_verilog -Inormalizer_staged/rtl normalizer_staged/rtl/ext_bench.v;
+proc;
+miter -equiv -flatten original_ext_bench ext_bench miter;
+hierarchy -top miter;
+opt;
+stat;
+sat -seq 3 -set-init-zero -prove trigger 0 -verify -timeout 60
